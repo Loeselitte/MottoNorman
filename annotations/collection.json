@@ -1,0 +1,7 @@
+{
+  "@type" : "sc:Layer",
+  "otherContent" : [ "https://Loeselitte.github.io/MottoNorman/annotations/annotations.json" ],
+  "@id" : "https://Loeselitte.github.io/MottoNorman/annotations/collection.json",
+  "label" : "All annotations loaded in Loeselitte/MottoNorman project",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
