@@ -1,0 +1,86 @@
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "https://raw.githubusercontent.com/Loeselitte/MottoNorman/main/manifests/ManifestMottoNorman.json",
+	"@type": "sc:Manifest",
+	"label": "Family Motto of the Norman and the Audenhove",
+	"metadata": [],
+	"description": [
+		{
+			"@value": "Family Motto of the Norman and the Audenhove in Saint Nicholas' Church in Ghent.",
+			"@language": "en"
+		}
+	],
+	"license": "https://creativecommons.org/licenses/by/3.0/",
+	"attribution": "Photographed by Lieselotte Hsiang-Mei Hsu",
+	"sequences": [
+		{
+			"@id": "http://326d2378-9784-4b47-bf7a-02919857bed2",
+			"@type": "sc:Sequence",
+			"label": "Normal Sequence",
+			"canvases": [
+				{
+					"@id": "http://c629162a-ee11-43bf-8d31-e59748e66e30",
+					"@type": "sc:Canvas",
+					"label": "Canvas Norman",
+					"height": 627,
+					"width": 836,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://0b3b5e29-2571-4c16-b4c3-891768cdcb2e",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://iiif.archive.org/iiif/family-motto-of-the-norman-and-the-audenhove/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://iiif.archive.org/iiif/family-motto-of-the-norman-and-the-audenhove",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": ["tif", "jpg", "gif", "png"],
+											"maxArea": 524172,
+											"qualities": ["bitonal", "default", "gray", "color"],
+											"supports": [
+												"regionByPx", "sizeByW", "sizeByWhListed", "cors",
+												"regionSquare", "sizeByDistortedWh", "canonicalLinkHeader",
+												"sizeByConfinedWh", "sizeByPct", "jsonldMediaType",
+												"regionByPct", "rotationArbitrary", "sizeByH",
+												"baseUriRedirect", "rotationBy90s", "profileLinkHeader",
+												"sizeByForcedWh", "sizeByWh", "mirroring"
+											]
+										}
+									]
+								},
+								"height": 836,
+								"width": 627
+							},
+							"on": "http://c629162a-ee11-43bf-8d31-e59748e66e30"
+						}
+					]
+				}
+			]
+		}
+	],
+	"structures": [
+		{
+			"@id": "https://raw.githubusercontent.com/Loeselitte/MottoNorman/main/manifests/ManifestMottoNorman.json/range/top",
+			"@type": "sc:Range",
+			"label": "Table of Content",
+			"viewingHint": "top",
+			"ranges": [
+				"https://raw.githubusercontent.com/Loeselitte/MottoNorman/main/manifests/ManifestMottoNorman.json/range/introduction"
+			]
+		},
+		{
+			"@id": "https://raw.githubusercontent.com/Loeselitte/MottoNorman/main/manifests/ManifestMottoNorman.json/range/introduction",
+			"@type": "sc:Range",
+			"label": "Introduction",
+			"canvases": [
+				"http://c629162a-ee11-43bf-8d31-e59748e66e30"
+			]
+		}
+	]
+}
