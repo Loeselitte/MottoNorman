@@ -1,0 +1,188 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "@id" : "http://localhost:8888/annotation/1776363109168",
+    "@type" : "oa:Annotation",
+    "dcterms:created" : "2026-04-16T20:11:49",
+    "dcterms:modified" : "2026-04-16T20:12:09",
+    "resource" : [ {
+      "@type" : "oa:Tag",
+      "http://dev.llgc.org.uk/sas/full_text" : "Motto",
+      "chars" : "Motto"
+    }, {
+      "@type" : "dctypes:Text",
+      "http://dev.llgc.org.uk/sas/full_text" : "Sans &ecirc;tre suis Norman&nbsp;\nWithout being, I am a Norman.",
+      "format" : "text/html",
+      "chars" : "<p><strong>Sans &ecirc;tre suis Norman&nbsp;</strong></p>\n<p>Without being, I am a Norman.</p>"
+    } ],
+    "on" : [ {
+      "@type" : "oa:SpecificResource",
+      "within" : {
+        "@id" : "https://raw.githubusercontent.com/Loeselitte/MottoNorman/main/manifests/ManifestMottoNorman.json",
+        "@type" : "sc:Manifest"
+      },
+      "selector" : {
+        "@type" : "oa:Choice",
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=275,489,283,37"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M275.39394,489.25947h141.60606v0h141.60606v18.57576v18.57576h-141.60606h-141.60606v-18.57576z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null}\" id=\"rectangle_d9777b4e-42ee-4526-8b1f-c6322f0b0028\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"7.27273\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        }
+      },
+      "full" : "http://c629162a-ee11-43bf-8d31-e59748e66e30"
+    } ],
+    "motivation" : [ "oa:commenting", "oa:tagging" ],
+    "@context" : "http://iiif.io/api/presentation/2/context.json"
+  }, {
+    "@id" : "http://localhost:8888/annotation/1776363275159",
+    "@type" : "oa:Annotation",
+    "dcterms:created" : "2026-04-16T20:14:35",
+    "dcterms:modified" : "2026-04-16T20:14:35",
+    "resource" : [ {
+      "@type" : "dctypes:Text",
+      "http://dev.llgc.org.uk/sas/full_text" : "Sans &ecirc;tre suis Norman\nWithout being, I am a Norman",
+      "format" : "text/html",
+      "chars" : "<p><strong>Sans &ecirc;tre suis Norman</strong></p>\n<p>Without being, I am a Norman</p>"
+    }, {
+      "@type" : "oa:Tag",
+      "http://dev.llgc.org.uk/sas/full_text" : "Motto",
+      "chars" : "Motto"
+    } ],
+    "on" : [ {
+      "@type" : "oa:SpecificResource",
+      "within" : {
+        "@id" : "https://raw.githubusercontent.com/Loeselitte/MottoNorman/main/manifests/ManifestMottoNorman.json",
+        "@type" : "sc:Manifest"
+      },
+      "selector" : {
+        "@type" : "oa:Choice",
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=490,295,49,41"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M489.93939,294.99511h24.63636v0h24.63636v20.39394v20.39394h-24.63636h-24.63636v-20.39394z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_2202370e-1d3f-44a0-9e3e-a7b290fd0335\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        }
+      },
+      "full" : "http://c629162a-ee11-43bf-8d31-e59748e66e30"
+    } ],
+    "motivation" : [ "oa:commenting", "oa:tagging" ],
+    "@context" : "http://iiif.io/api/presentation/2/context.json"
+  }, {
+    "@id" : "http://localhost:8888/annotation/1776363657317",
+    "@type" : "oa:Annotation",
+    "dcterms:created" : "2026-04-16T20:20:57",
+    "dcterms:modified" : "2026-04-16T20:25:32",
+    "resource" : [ {
+      "@type" : "oa:Tag",
+      "http://dev.llgc.org.uk/sas/full_text" : "Armoury",
+      "chars" : "Armoury"
+    }, {
+      "@type" : "dctypes:Text",
+      "http://dev.llgc.org.uk/sas/full_text" : "Armorial of the Norman and the Audenhove\nAzure from the sable to the chief, with the whole strewn with gold bars; a lion also gold, armed and langued gules, standing on the bars.\n<span style=\"font-family: 'Helvetica Neue'; font-size: 13px;\">&laquo; <span style=\"font-size: 16px; caret-color: #212529; color: #212529; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; font-style: italic; text-align: center;\">De sable au chef cousu d'azur, le tout sem&eacute; de billettes d'or ; au lion aussi d'or, arm&eacute; et lampass&eacute; de gueules, brochant sur les billettes.&nbsp;<span style=\"font-family: 'Helvetica Neue'; font-size: 13px;\">&raquo;",
+      "format" : "text/html",
+      "chars" : "<p><strong>Armorial of the Norman and the Audenhove</strong></p>\n<p>Azure from the sable to the chief, with the whole strewn with gold bars; a lion also gold, armed and langued gules, standing on the bars.</p>\n<p><span style=\"font-family: 'Helvetica Neue'; font-size: 13px;\">&laquo; </span><span style=\"font-size: 16px; caret-color: #212529; color: #212529; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; font-style: italic; text-align: center;\">De sable au chef cousu d'azur, le tout sem&eacute; de billettes d'or ; au lion aussi d'or, arm&eacute; et lampass&eacute; de gueules, brochant sur les billettes.&nbsp;</span><span style=\"font-family: 'Helvetica Neue'; font-size: 13px;\">&raquo;</span></p>"
+    }, {
+      "@type" : "oa:Tag",
+      "http://dev.llgc.org.uk/sas/full_text" : "Heraldry",
+      "chars" : "Heraldry"
+    } ],
+    "on" : [ {
+      "@type" : "oa:SpecificResource",
+      "within" : "https://raw.githubusercontent.com/Loeselitte/MottoNorman/main/manifests/ManifestMottoNorman.json",
+      "selector" : {
+        "@type" : "oa:Choice",
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=680,268,2,2"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M680.24242,268.32845h1v0h1v1v1h-1h-1v-1z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_a8895ec7-37c2-4e09-b434-6c238097bb3f\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"7.27273\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        }
+      },
+      "full" : "http://c629162a-ee11-43bf-8d31-e59748e66e30"
+    }, {
+      "@type" : "oa:SpecificResource",
+      "within" : {
+        "@id" : "https://raw.githubusercontent.com/Loeselitte/MottoNorman/main/manifests/ManifestMottoNorman.json",
+        "@type" : "sc:Manifest"
+      },
+      "selector" : {
+        "@type" : "oa:Choice",
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=239,239,344,247"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M239.0303,239.23754h171.90909v0h171.90909v123.42424v123.42424h-171.90909h-171.90909v-123.42424z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_8ba01bed-c8e4-43d3-b8a1-0cd2817a42ab\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"7.27273\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        }
+      },
+      "full" : "http://c629162a-ee11-43bf-8d31-e59748e66e30"
+    } ],
+    "motivation" : [ "oa:commenting", "oa:tagging" ],
+    "@context" : "http://iiif.io/api/presentation/2/context.json"
+  }, {
+    "@id" : "http://localhost:8888/annotation/1776363657317",
+    "@type" : "oa:Annotation",
+    "dcterms:created" : "2026-04-16T20:20:57",
+    "dcterms:modified" : "2026-04-16T20:25:32",
+    "resource" : [ {
+      "@type" : "oa:Tag",
+      "http://dev.llgc.org.uk/sas/full_text" : "Armoury",
+      "chars" : "Armoury"
+    }, {
+      "@type" : "dctypes:Text",
+      "http://dev.llgc.org.uk/sas/full_text" : "Armorial of the Norman and the Audenhove\nAzure from the sable to the chief, with the whole strewn with gold bars; a lion also gold, armed and langued gules, standing on the bars.\n<span style=\"font-family: 'Helvetica Neue'; font-size: 13px;\">&laquo; <span style=\"font-size: 16px; caret-color: #212529; color: #212529; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; font-style: italic; text-align: center;\">De sable au chef cousu d'azur, le tout sem&eacute; de billettes d'or ; au lion aussi d'or, arm&eacute; et lampass&eacute; de gueules, brochant sur les billettes.&nbsp;<span style=\"font-family: 'Helvetica Neue'; font-size: 13px;\">&raquo;",
+      "format" : "text/html",
+      "chars" : "<p><strong>Armorial of the Norman and the Audenhove</strong></p>\n<p>Azure from the sable to the chief, with the whole strewn with gold bars; a lion also gold, armed and langued gules, standing on the bars.</p>\n<p><span style=\"font-family: 'Helvetica Neue'; font-size: 13px;\">&laquo; </span><span style=\"font-size: 16px; caret-color: #212529; color: #212529; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; font-style: italic; text-align: center;\">De sable au chef cousu d'azur, le tout sem&eacute; de billettes d'or ; au lion aussi d'or, arm&eacute; et lampass&eacute; de gueules, brochant sur les billettes.&nbsp;</span><span style=\"font-family: 'Helvetica Neue'; font-size: 13px;\">&raquo;</span></p>"
+    }, {
+      "@type" : "oa:Tag",
+      "http://dev.llgc.org.uk/sas/full_text" : "Heraldry",
+      "chars" : "Heraldry"
+    } ],
+    "on" : [ {
+      "@type" : "oa:SpecificResource",
+      "within" : "https://raw.githubusercontent.com/Loeselitte/MottoNorman/main/manifests/ManifestMottoNorman.json",
+      "selector" : {
+        "@type" : "oa:Choice",
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=680,268,2,2"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M680.24242,268.32845h1v0h1v1v1h-1h-1v-1z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_a8895ec7-37c2-4e09-b434-6c238097bb3f\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"7.27273\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        }
+      },
+      "full" : "http://c629162a-ee11-43bf-8d31-e59748e66e30"
+    }, {
+      "@type" : "oa:SpecificResource",
+      "within" : {
+        "@id" : "https://raw.githubusercontent.com/Loeselitte/MottoNorman/main/manifests/ManifestMottoNorman.json",
+        "@type" : "sc:Manifest"
+      },
+      "selector" : {
+        "@type" : "oa:Choice",
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=239,239,344,247"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M239.0303,239.23754h171.90909v0h171.90909v123.42424v123.42424h-171.90909h-171.90909v-123.42424z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_8ba01bed-c8e4-43d3-b8a1-0cd2817a42ab\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"7.27273\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        }
+      },
+      "full" : "http://c629162a-ee11-43bf-8d31-e59748e66e30"
+    } ],
+    "motivation" : [ "oa:commenting", "oa:tagging" ],
+    "@context" : "http://iiif.io/api/presentation/2/context.json"
+  } ],
+  "@id" : "https://Loeselitte.github.io/MottoNorman/annotations/annotations.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
