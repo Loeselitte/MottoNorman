@@ -1,6 +1,6 @@
 {
 	"@context": "http://iiif.io/api/presentation/2/context.json",
-	"@id": "http://ed3c21fd-c214-41ea-8852-3edfcbfda511",
+	"@id": "https://raw.githubusercontent.com/Loeselitte/MottoNorman/main/manifests/ManifestMottoNorman.json",
 	"@type": "sc:Manifest",
 	"label": "Family Motto of the Norman and the Audenhove",
 	"metadata": [],
@@ -22,8 +22,8 @@
 					"@id": "http://c629162a-ee11-43bf-8d31-e59748e66e30",
 					"@type": "sc:Canvas",
 					"label": "Canvas Norman",
-					"height": "627",
-					"width": "836",
+					"height": 627,
+					"width": 836,
 					"images": [
 						{
 							"@context": "http://iiif.io/api/presentation/2/context.json",
@@ -40,39 +40,16 @@
 									"profile": [
 										"http://iiif.io/api/image/2/level2.json",
 										{
-											"formats": [
-												"tif",
-												"jpg",
-												"gif",
-												"png"
-											],
+											"formats": ["tif", "jpg", "gif", "png"],
 											"maxArea": 524172,
-											"qualities": [
-												"bitonal",
-												"default",
-												"gray",
-												"color"
-											],
+											"qualities": ["bitonal", "default", "gray", "color"],
 											"supports": [
-												"regionByPx",
-												"sizeByW",
-												"sizeByWhListed",
-												"cors",
-												"regionSquare",
-												"sizeByDistortedWh",
-												"canonicalLinkHeader",
-												"sizeByConfinedWh",
-												"sizeByPct",
-												"jsonldMediaType",
-												"regionByPct",
-												"rotationArbitrary",
-												"sizeByH",
-												"baseUriRedirect",
-												"rotationBy90s",
-												"profileLinkHeader",
-												"sizeByForcedWh",
-												"sizeByWh",
-												"mirroring"
+												"regionByPx", "sizeByW", "sizeByWhListed", "cors",
+												"regionSquare", "sizeByDistortedWh", "canonicalLinkHeader",
+												"sizeByConfinedWh", "sizeByPct", "jsonldMediaType",
+												"regionByPct", "rotationArbitrary", "sizeByH",
+												"baseUriRedirect", "rotationBy90s", "profileLinkHeader",
+												"sizeByForcedWh", "sizeByWh", "mirroring"
 											]
 										}
 									]
@@ -82,28 +59,28 @@
 							},
 							"on": "http://c629162a-ee11-43bf-8d31-e59748e66e30"
 						}
-					],
-					"related": ""
+					]
 				}
 			]
 		}
 	],
 	"structures": [
 		{
-			"@id": "http://iiif.io/api/presentation/2/context.json",
+			"@id": "https://raw.githubusercontent.com/Loeselitte/MottoNorman/main/manifests/ManifestMottoNorman.json/range/top",
 			"@type": "sc:Range",
 			"label": "Table of Content",
 			"viewingHint": "top",
 			"ranges": [
-				"http://iiif.io/api/presentation/2/context.json"
+				"https://raw.githubusercontent.com/Loeselitte/MottoNorman/main/manifests/ManifestMottoNorman.json/range/introduction"
 			]
 		},
 		{
-			"@id": "http://iiif.io/api/presentation/2/context.json",
+			"@id": "https://raw.githubusercontent.com/Loeselitte/MottoNorman/main/manifests/ManifestMottoNorman.json/range/introduction",
 			"@type": "sc:Range",
 			"label": "Introduction",
 			"canvases": [
-				"$http://ed3c21fd-c214-41ea-8852-3edfcbfda511"
+				"http://c629162a-ee11-43bf-8d31-e59748e66e30"
 			]
 		}
 	]
+}
