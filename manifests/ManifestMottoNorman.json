@@ -37,22 +37,7 @@
 								"service": {
 									"@context": "http://iiif.io/api/image/2/context.json",
 									"@id": "https://iiif.archive.org/iiif/family-motto-of-the-norman-and-the-audenhove",
-									"profile": [
-										"http://iiif.io/api/image/2/level2.json",
-										{
-											"formats": ["tif", "jpg", "gif", "png"],
-											"maxArea": 524172,
-											"qualities": ["bitonal", "default", "gray", "color"],
-											"supports": [
-												"regionByPx", "sizeByW", "sizeByWhListed", "cors",
-												"regionSquare", "sizeByDistortedWh", "canonicalLinkHeader",
-												"sizeByConfinedWh", "sizeByPct", "jsonldMediaType",
-												"regionByPct", "rotationArbitrary", "sizeByH",
-												"baseUriRedirect", "rotationBy90s", "profileLinkHeader",
-												"sizeByForcedWh", "sizeByWh", "mirroring"
-											]
-										}
-									]
+									"profile": "http://iiif.io/api/image/2/level2.json"
 								},
 								"height": 836,
 								"width": 627
